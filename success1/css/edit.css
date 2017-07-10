@@ -1,0 +1,12 @@
+.grid figure{
+	height:255px;
+}
+.sec1 p.text1{
+	font-size: 32px;
+	line-height:36px;
+}
+@media(max-width:720px){
+	.sec1{
+		padding-top:60px;
+	}
+}

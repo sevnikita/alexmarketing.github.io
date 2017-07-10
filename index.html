@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Alex Marketing</title>
+    <!-- SEO-->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/edit.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  </head>
+  <body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93897832-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter39851440 = new Ya.Metrika({
+                    id:39851440,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/39851440" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    <!-- SECTION 1-->
+    <div id="modal-16" class="md-modal md-effect-16">
+      <div class="md-content">
+        <h3>Отправьте заявку</h3>
+        <div class="wrap-form">
+          <p>Заполните форму, и мы свяжемся с Вами в ближайше время</p>
+          <form id="form1" action='http://alexmarketing.com.ua/success' onsubmit="return mailer(form1);">
+            <span class="input input--hoshi">
+              <input type="text" id="input-4" required="required" class="input__field input__field--hoshi name">
+              <label for="input-4" class="input__label input__label--hoshi input__label--hoshi-color-1">
+                <span class="input__label-content input__label-content--hoshi">Ваше имя</span>
+              </label>
+            </span>
+            <span class="input input--hoshi">
+              <input type="text" id="input-4" required="required" class="input__field input__field--hoshi phone">
+              <label for="input-4" class="input__label input__label--hoshi input__label--hoshi-color-1">
+                <span class="input__label-content input__label-content--hoshi">Ваш телефон</span>
+              </label>
+            </span>
+            <input type="hidden" class="email">
+            <button data-modal="modal-16" class="md-trigger inl submit inl button button--isi button--text-upper button--size-s">
+              <span>Отправить</span>
+            </button>
+          </form>
+          <button class="md-close">
+            <span class="one"></span>
+            <span class="two"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="pagewrap" class="pagewrap">
+      <section class="material-blue">
+        <div class="material-icon failed-loader">
+          <span class="first"></span>
+          <span class="second"></span>
+          <span class="third"></span>
+        </div>
+      </section>
+      <header class="main-header">
+        <div class="container">
+          <div id="hamburger" class="hamburglar is-closed inl">
+            <div class="burger-icon">
+              <div class="burger-container">
+                <span class="burger-bun-top"></span>
+                <span class="burger-filling"></span>
+                <span class="burger-bun-bot"></span>
+              </div>
+            </div>
+            <div class="burger-ring">
+              <svg class="svg-ring">
+                <path fill="none" stroke="#ed7b00" stroke-miterlimit="10" stroke-width="4" d="M 34 2 C 16.3 2 2 16.3 2 34 s 14.3 32 32 32 s 32 -14.3 32 -32 S 51.7 2 34 2" class="path"></path>
+              </svg>
+            </div>
+            <svg width="50px" height="50px">
+              <mask id="mask"></mask>
+              <path xmlns="https://www.w3.org/2000/svg" fill="none" stroke="none" stroke-miterlimit="10" stroke-width="4" d="M 34 2 c 11.6 0 21.8 6.2 27.4 15.5 c 2.9 4.8 5 16.5 -9.4 16.5 h -4"></path>
+            </svg>
+          </div>
+          <div class="logo inl"></div>
+          <p class="name inl">Alex
+            <br> Marketing</p>
+          <button data-modal="modal-16" data-ripple="" class="btn btn-success md-trigger button button--isi button--text-upper button--size-s">
+            <span>Заказать</span>
+          </button>
+          <div class="links inl">
+            <a href="#portfolio" onclick="anchorScroller(this,1500)" class="link link2 inl">портфолио </a>
+            <a href="#price" onclick="anchorScroller(this,1500)" class="link link3 inl">расценки</a>
+            <a href="#contacts" onclick="anchorScroller(this,1500)" class="link link4 inl">контакты</a>
+          </div>
+        </div>
+      </header>
+      <section class="sec1">
+        <div class="container">
+          <p class="text1">разработка landing page</p>
+          <p class="text2 txt">Мы - команда професcионалов, которая создаст идеальную продающую страницу для Вас.</p>
+          <button data-modal="modal-16" class="md-trigger button button--isi button--text-thick button--text-upper button--size-s">
+            <span>Заказать landing page</span>
+          </button>
+          <a href="#usl" onclick="anchorScroller(this,1500)" class="arrowdown"></a>
+        </div>
+      </section>
+      <a name="usl"></a>
+      <section class="sec2">
+        <div class="container">
+          <p class="text">Зачем нужен
+            <span>landing page ?</span>
+          </p>
+          <p class="text1">Зачем владельцам бизнеса Landing Page ?
+            <br>Какие бонусы Вы получаете, и как это поможет увеличить свой доход? </p>
+          <div class="blocks">
+            <div class="block inl block1">
+              <p>У Вас уже есть свой бизнес и Вам нужен
+                <span>больший поток</span> клиентов</p>
+            </div>
+            <div class="block inl block2">
+              <p>Вы думаете о запуске
+                <span>нового дела</span> с нуля и хотите это сделать в интернете?</p>
+            </div>
+            <div class="block inl block3">
+              <p>Вы хотите провести тренинг/семинар, и
+                <span>привлечь</span> как можно больше
+                <span>посетителей</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec3">
+        <div class="container">
+          <div class="land inl"></div>
+          <p class="text inl">
+            <span>Landing page </span> - призвана привлечь внимание клиента, на представленный Вами товар!
+            <br>
+            <br>Вся информация на странице представлена сжато и целенаправленно, представляя Ваш товар в наилучшем свете.</p>
+          <p class="text1">Я хочу больше узнать о
+            <span>Landing Page</span>
+          </p>
+          <div class="morph-button morph-button-overlay morph-button-fixed">
+            <button type="button"> </button>
+            <div class="morph-content">
+              <div>
+                <div class="content-style-overlay">
+                  <span class="icon icon-close">Close the overlay</span>
+                  <p>Всё больше людей хотят узнать, что такое лендинг пейдж
+                    <br>
+                    <br>Что такое landing page? Это страница в Интернете на Вашем домене или поддомене в формате html/CSS или других.
+                    <br>
+                    <br>Цель такой страницы в том, чтобы человек, который на неё попал оставил заявку или позвонил, то есть совершил целевое действие.
+                    <br>
+                    <br>Как отличить такую страницу? На ней нет сложной навигации, больших пластов текста, мигающих баннеров и лишних меню.
+                    <br>
+                    <br>В Интернете Вы наверняка встречали разные названия landing page — страница приземления, страница захвата, одностраничный сайт, лендинг пейдж и т.д.
+                    <br>
+                    <br>Этот инструмент способен продавать на 10–30% эффективнее, чем обычный сайт или интернет-магазин.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec4">
+        <div class="container">
+          <p class="text">специальное предложение</p>
+          <p class="text1">Mы предлагаем уникальную возможность! </p>
+          <p class="text2">Всего за
+            <span>1$ </span>мы спроектируем для Вас индивидуальный дизайн первого экрана Landing Page, чтобы Вы смогли убедиться в качестве нашей работы</p>
+          <button data-modal="modal-16" class="md-trigger button button--isi button--text-upper button--size-s">
+            <span>Заказать</span>
+          </button>
+          <p class="text3">Предложение действительно еще:</p>
+          <div data-cookies="yep" data-extra="4,0,0" id="countdown1" class="simpleCountdown"></div>
+        </div>
+      </section>
+      <section class="sec5">
+        <div class="container">
+          <p class="text">наша команда, которая будет работать над вашим
+            <span>landing page</span>
+          </p>
+          <div class="texts inl">
+            <p class="text1">Менеджер</p>
+            <p class="text2">Этот человек отвечает за выполнение поставленных задач и сроки выполнения работ. Менеджер проекта является связующим звеном между клиентом и нашей командой.</p>
+            <a class="item item1 inl">
+              <span data-ripple="" class="image btn btn-success"></span>
+              <span class="text3">Менеджер</span>
+            </a>
+            <a class="item item2 inl">
+              <span data-ripple="" class="image btn btn-success"></span>
+              <span class="text3">Копирайтер</span>
+            </a>
+            <a class="item item3 inl">
+              <span data-ripple="" class="image btn btn-success"></span>
+              <span class="text3">Дизайнер</span>
+            </a>
+            <a class="item item4 inl">
+              <span data-ripple="" class="image btn btn-success"></span>
+              <span class="text3">Контекстолог</span>
+            </a>
+            <a class="item item5 inl">
+              <span data-ripple="" class="image btn btn-success"></span>
+              <span class="text3">Верстальщик</span>
+            </a>
+          </div>
+          <div id="block" class="block1"></div>
+        </div>
+      </section>
+      <a name="portfolio"></a>
+      <section class="sec6">
+        <div class="container">
+          <p class="text">созданные с нашей помощью
+            <span>landing page</span>
+          </p>
+          <p class="text1 txt">Примеры работ и отзывы наших благодарных клиентов, помогут Вам ознакомиться с услугами, которые мы предоставляем</p>
+          <div class="blocks">
+            <div class="grid">
+              <figure class="effect-apollo figure1">
+                <img src="img/2.png" alt="img18">
+                <figcaption>
+                  <h2>Инфорграф
+                    <span> Студио</span>
+                  </h2>
+                  <p>Производство видеороликов
+                    <br>Конверсия
+                    <b>14%</b>
+                  </p>
+                  <a target="_blank" href="http://infographstudio.com/">View more</a>
+                </figcaption>
+              </figure>
+              <figure class="effect-apollo figure2">
+                <img src="img/4.png" alt="img18">
+                <figcaption>
+                  <h2> Завод
+                    <br>
+                    <span> ЗИО</span>
+                  </h2>
+                  <p>Изоляционное оборудование
+                    <br>Конверсия
+                    <b>12%</b>
+                  </p>
+                  <a target="_blank" href="http://zio.org.ua/">View more</a>
+                </figcaption>
+              </figure>
+              <figure class="effect-apollo figure3">
+                <img src="img/7.png" alt="img18">
+                <figcaption>
+                  <h2>Реклама
+                    <br>
+                    <span>Cactus</span>
+                  </h2>
+                  <p>Наружная реклама
+                    <br>Конверсия
+                    <b>7%</b>
+                  </p>
+                  <a target="_blank" href="http://reklamacactus.com.ua/">View more</a>
+                </figcaption>
+              </figure>
+              <figure class="effect-apollo figure4">
+                <img src="img/12.png" alt="img18">
+                <figcaption>
+                  <h2>Буд-Гарант
+                    <br>
+                    <span> Плюс</span>
+                  </h2>
+                  <p>Земляный работы
+                    <br>Конверсия
+                    <b>13%</b>
+                  </p>
+                  <a target="_blank" href="http://bud-garantplus.com.ua/">View more</a>
+                </figcaption>
+              </figure>
+              <figure class="effect-apollo figure5">
+                <img src="img/13.png" alt="img18">
+                <figcaption>
+                  <h2> Автомир
+                    <br>
+                    <span> Логистик</span>
+                  </h2>
+                  <p>Аренда спецтехники
+                    <br>Конверсия
+                    <b>10%</b>
+                  </p>
+                  <a target="_blank" href="http://avtomirlogistic.com.ua/">View more</a>
+                </figcaption>
+              </figure>
+              <figure class="effect-apollo figure6">
+                <img src="img/14.png" alt="img18">
+                <figcaption>
+                  <h2>Радуга
+                    <br>
+                    <span>ЧП НПФ</span>
+                  </h2>
+                  <p>Изготовление плитки
+                    <br>Конверсия
+                    <b>6%</b>
+                  </p>
+                  <a target="_blank" href="http://www.raduga-plitka.com.ua/">View more</a>
+                </figcaption>
+              </figure>
+              <figure class="effect-apollo figure7">
+                <img src="img/15.png" alt="img18">
+                <figcaption>
+                  <h2>Rogov
+                    <br>
+                    <span> Studio</span>
+                  </h2>
+                  <p>Дизайн интерьеров
+                    <br>Конверсия
+                    <b>14%</b>
+                  </p>
+                  <a target="_blank" href="http://rogovst.com.ua/">View more</a>
+                </figcaption>
+              </figure>
+              <figure class="effect-apollo figure8">
+                <img src="img/17.png" alt="img18">
+                <figcaption>
+                  <h2> Дмитрий
+                    <br>
+                    <span> Белинский</span>
+                  </h2>
+                  <p>Ведущий на праздники
+                    <br>Конверсия
+                    <b>12%</b>
+                  </p>
+                  <a target="_blank" href="http://belinsky.com.ua/">View more</a>
+                </figcaption>
+              </figure>
+              <figure class="effect-apollo figure9">
+                <img src="img/11.png" alt="img18">
+                <figcaption>
+                  <h2>Таврийская
+                    <br>
+                    <span>эн. компания</span>
+                  </h2>
+                  <p>Электромонтажные работы
+                    <br>Конверсия
+                    <b>11%</b>
+                  </p>
+                  <a target="_blank" href="http://inenergy.com.ua/">View more</a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <p class="text4 inl">Обсудить Ваш проект</p>
+          <button data-modal="modal-16" class="md-trigger inl button button--isi button--text-upper button--size-s">
+            <span>Заказать звонок</span>
+          </button>
+        </div>
+      </section>
+      <section class="sec7">
+        <div class="container">
+          <p class="text">почему стоит заказывать
+            <span>landing page</span> у нас?</p>
+          <div class="texts inl">
+            <p class="text1">СКОРОСТЬ</p>
+            <p class="text2">Сайт готов к работе уже в течении 10 дней! Мы качественно выделяемся среди конкурентов, и скорость не единственный показатель, который позволяет нам быть среди лучших в нише создания и продвижения Landing Page</p>
+            <a class="item item1 inl">
+              <span data-ripple="" class="image btn btn-success"></span>
+              <span class="text3">Скорость</span>
+            </a>
+            <a class="item item2 inl">
+              <span data-ripple="" class="image btn btn-success"></span>
+              <span class="text3">Поддрежка</span>
+            </a>
+            <a class="item item3 inl">
+              <span data-ripple="" class="image btn btn-success"></span>
+              <span class="text3">Уникальный
+                <br>дизайн</span>
+            </a>
+            <a class="item item4 inl">
+              <span data-ripple="" class="image btn btn-success"></span>
+              <span class="text3">«Под ключ»</span>
+            </a>
+          </div>
+          <div id="block1" class="block1"></div>
+        </div>
+      </section>
+      <a name="price"></a>
+      <section class="sec8">
+        <div class="container">
+          <p class="text">РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</p>
+          <p class="text1">Подберите подходящий именно Вам пакет предоставляемых услуг</p>
+          <div class="blocks">
+            <div class="block block1 inl">
+              <p class="text2">МИНИМУМ</p>
+              <div class="part1">
+                <p class="text3 text31">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Анализ ниши</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Если проект, сделанный без предварительного анализа ниши, не будет продавать, с большой долей вероятности его нужно будет переделывать практически с нуля. И отправной точкой в этом путешествии будет как раз анализ.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text32">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Уникальный дизайн</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Делаем всегда продуманный, и главное, продающий индивидуальный дизайн. Никакой шаблонности.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text33">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Верстка</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Кроссбраузерная html и css верстка – верстка, нацеленная на создания сайта, отображаемого в каждом браузере одинаково корректно.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text34">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Адаптивная версия</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Сегодня львиная доля всемирного трафика генерируется с помощью мобильных устройств. Если ваш веб-ресурс не оптимизирован под современные гаджеты, то вы теряете больше половины потенциальных пользователей.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text35">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Техподдержка</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">В любое время 24/7 Вы сможете писать нам в техподдержку, если Вам будет нужна консультация специалиста или внесение изменений на сайте.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text36">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Уникальный контент</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Контент - это заголовки, текста, картинки и т.д. Удачно подобранный контент может увеличить конверсию сайта в 7 раз.</span>
+                    </span>
+                  </span>
+                </p>
+              </div>
+              <div class="part2">
+                <p class="thousands inl">10</p>
+                <div class="zeros inl">
+                  <p class="zero">000</p>
+                  <p class="hrn">гривен</p>
+                </div>
+              </div>
+              <a data-ripple="" data-modal="modal-16" class="button3 btn btn-success md-trigger">ЗАКАЗАТЬ</a>
+            </div>
+            <div class="block block2 inl">
+              <p class="text2">СТАНДАРТ</p>
+              <div class="part1">
+                <p class="text3 text31">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Анализ ниши</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Если проект, сделанный без предварительного анализа ниши, не будет продавать, с большой долей вероятности его нужно будет переделывать практически с нуля. И отправной точкой в этом путешествии будет как раз анализ.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text32">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Уникальный дизайн</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Делаем всегда продуманный, и главное, продающий индивидуальный дизайн. Никакой шаблонности.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text33">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Верстка</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Кроссбраузерная html и css верстка – верстка, нацеленная на создания сайта, отображаемого в каждом браузере одинаково корректно.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text34">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Адаптивная версия</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Сегодня львиная доля всемирного трафика генерируется с помощью мобильных устройств. Если ваш веб-ресурс не оптимизирован под современные гаджеты, то вы теряете больше половины потенциальных пользователей.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text35">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Техподдержка</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">В любое время 24/7 Вы сможете писать нам в техподдержку, если Вам будет нужна консультация специалиста или внесение изменений на сайте.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text36">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Уникальный контент</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Контент - это заголовки, текста, картинки и т.д. Удачно подобранный контент может увеличить конверсию сайта в 7 раз.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text37">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Настройка рекламы</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Правильная настройка контекстной рекламы увеличит результативность работы (конверсию) Вашего сайта до 10 раз.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text38">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Ремаркетинг</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Ремаркетинг – это функция, позволяющая показывать рекламу пользователям, которые раньше уже заходили на ваш сайт. Это можно делать, когда они посещают другие сайты в контекстно-медийной сети Google или используют ваши ключевые слова
+                        при поиске в Google.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text39">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Сопровождение</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Сопровождение 2 недели после запуска</span>
+                    </span>
+                  </span>
+                </p>
+              </div>
+              <div class="part2">
+                <p class="thousands inl">15</p>
+                <div class="zeros inl">
+                  <p class="zero">000</p>
+                  <p class="hrn">гривен</p>
+                </div>
+              </div>
+              <a data-ripple="" data-modal="modal-16" class="button3 btn btn-success md-trigger">ЗАКАЗАТЬ</a>
+            </div>
+            <div class="block block3 inl">
+              <p class="text2">МАКСИМУМ</p>
+              <div class="part1">
+                <p class="text3 text31">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Анализ ниши</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Если проект, сделанный без предварительного анализа ниши, не будет продавать, с большой долей вероятности его нужно будет переделывать практически с нуля. И отправной точкой в этом путешествии будет как раз анализ.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text32">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Уникальный дизайн</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Делаем всегда продуманный, и главное, продающий индивидуальный дизайн. Никакой шаблонности.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text33">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Верстка</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Кроссбраузерная html и css верстка – верстка, нацеленная на создания сайта, отображаемого в каждом браузере одинаково корректно.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text34">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Адаптивная версия</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Сегодня львиная доля всемирного трафика генерируется с помощью мобильных устройств. Если ваш веб-ресурс не оптимизирован под современные гаджеты, то вы теряете больше половины потенциальных пользователей.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text35">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Техподдержка</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">В любое время 24/7 Вы сможете писать нам в техподдержку, если Вам будет нужна консультация специалиста или внесение изменений на сайте.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text36">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Уникальный контент</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Контент - это заголовки, текста, картинки и т.д. Удачно подобранный контент может увеличить конверсию сайта в 7 раз.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text37">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Настройка рекламы</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Правильная настройка контекстной рекламы увеличит результативность работы (конверсию) Вашего сайта до 10 раз.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text38">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Ремаркетинг</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Ремаркетинг – это функция, позволяющая показывать рекламу пользователям, которые раньше уже заходили на ваш сайт. Это можно делать, когда они посещают другие сайты в контекстно-медийной сети Google или используют ваши ключевые слова
+                        при поиске в Google.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text39">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Сопровождение</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Сопровождение 1 месяц после запуска</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text310">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Мультилендинг</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Мультилендинг — это динамическая целевая страница, которая меняет свое содержимое в зависимости от ключевых слов, которые были введены в поисковик</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text311">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Геотаргетинг</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Геотаргетинг позволит лендингу определять местоположение клиента, и, соответственно выдавать данные, актуальные для его региона.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text312">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">А\Б тестирование</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Это лучший и самый эффективный способ повысить конверсию лендинга. Мы запускаем 2 копии существующей страницы с каким-то одним отличием и смотрим на результат.</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="text3 text313">
+                  <span class="tooltip tooltip-effect-1">
+                    <span class="tooltip-item">Онлайн-консультант</span>
+                    <span class="tooltip-content clearfix">
+                      <span class="tooltip-text">Онлайн консультант увеличивает конверсию посетителей в покупателей и средний чек. Получайте больше денег при тех же расходах на привлечение клиентов.</span>
+                    </span>
+                  </span>
+                </p>
+              </div>
+              <div class="part2">
+                <p class="thousands inl">20</p>
+                <div class="zeros inl">
+                  <p class="zero">000</p>
+                  <p class="hrn">гривен</p>
+                </div>
+              </div>
+              <a data-ripple="" data-modal="modal-16" class="button3 btn btn-success md-trigger">ЗАКАЗАТЬ</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec9">
+        <div class="container">
+          <p class="text">ОТЗЫВЫ БЛАГОДАРНЫХ КЛИЕНТОВ</p>
+          <p class="text1">Ничто так не характеризует работу нашей команды, как отзывы оставленные нашими клиентами</p>
+          <div id="firstotz" class="block1">
+            <div class="photo"></div>
+            <p class="text2">“С Alex Marketing мы начали сотрудничество 4 месяца назад и за это время они увеличили нам конверсию с 1% на 7% при тех же расходах на рекламу уже через месяц.”</p>
+            <p class="text4 inl">Дмитрий Левинский</p>
+            <p class="text3 inl"> - директор продаж «ООО ЛИДЕР»</p>
+          </div>
+          <div id="secondotz" class="block2">
+            <div class="photo"></div>
+            <p class="text2">“Хочу поблагодарить Alex Marketing за их подход к делу. Я в восторге от результатов! Вернула свои вложенные деньги уже после 17 заявок!)”</p>
+            <p class="text4 inl">Екатерина Краснова</p>
+            <p class="text3 inl"> - основатель «ToyLand»</p>
+          </div>
+          <div class="arrows inl">
+            <a id="arrowleft">
+              <span class="btn btn-success"></span>
+            </a>
+            <a id="arrowright">
+              <span class="btn btn-success"></span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <a name="contacts"></a>
+      <section class="sec10">
+        <div class="container">
+          <p class="text">ПОЛУЧИТЕ ВЫЖИМКУ НАШИХ ЗНАНИЙ В ОДНОМ PDF</p>
+          <div class="texts inl">
+            <p class="text1">Вы хотите получить максимум от создания landing page? Скачайте абсолютно
+              <span>БЕСПЛАТНО</span> руководство по созданию landing page, основанное на нашем многолетнем опыте.</p>
+            <form id="form2" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
+              <span class="input input--hoshi">
+                <input name='email' type="text" id="input-4" required="required" class="input__field input__field--hoshi email">
+                <label for="input-4" class="input__label input__label--hoshi input__label--hoshi-color-1">
+                  <span class="input__label-content input__label-content--hoshi">E-mail</span>
+                </label>
+              </span>
+              <input type="hidden" name="campaign_token" value="n8NFj" /> 
+              <input type="hidden" name="thankyou_url" value="http://alexmarketing.com.ua/success1/"/> 
+              <input type="hidden" name="email_exists_url" value="http://alexmarketing.com.ua/success1/">
+              <input type="hidden" name="start_day" value="0" /> 
+              <input type="hidden" name="forward_data" value="" /> 
+              <button type='submit' class="md-trigger inl submit inl button button--isi button--text-upper button--size-s">
+                <span>Скачать</span>
+              </button>
+            </form>
+          </div>
+          <a class="guide inl"></a>
+          <div class="block">
+            <div class="part1 inl">
+              <p>Мы в соцсетях</p>
+              <a target='_blank' href="https://facebook.com/Alex-Marketing-485541271629263/" class="socicon fbicon"></a>
+              <a target='_blank' href="https://vk.com/alexmarketingme" class="socicon vkicon"></a>
+            </div>
+            <div class="part2 inl">
+              <p class="text4">Контакты</p>
+              <p class="phone">+38 (099) 428 23 76
+                <br>+38 (096) 206 37 87
+                <br>+38 (093) 545 45 75</p>
+              <p class="mail">alexmarketingme@gmail.com</p>
+            </div>
+          </div>
+          <div class="footer">
+            <p class="text3">Copyright (c) Alexmarketing 2017 Все права защищены.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="md-overlay"></div>
+    <script src="js/libs.min.js"></script>
+    <script src="js/notificationFx.js"></script>
+    <script src="js/common.min.js"></script>
+    <script src="//api-maps.yandex.ru/2.0-stable/?load=package.standard&amp;lang=ru-RU"></script>
+    <script>
+      function mailer(formid)
+      {
+        var output = false;
+        var name, email, phone;
+        form = $(formid);
+        if (form.find('.name').val())
+        {
+          name = form.find('.name').val();
+        }
+        if (form.find('.phone').val())
+        {
+          phone = form.find('.phone').val();
+        }
+        $.ajax(
+        {
+          type: "POST",
+          url: 'mailer/mail1.php',
+          async: false,
+          data:
+          {
+            name: name,
+            phone: phone
+          },
+          success: function()
+          {
+            output = true;
+            // $("#modal-16 .wrap-form").slideUp(300);
+            // setTimeout(function()
+            // {
+            //   $("#modal-16 h3").html("Спасибо за заявку!");
+            // }, 300);
+            // setTimeout(function()
+            // {
+            //   $('.md-close').trigger('click');
+            // }, 2000);
+            // setTimeout(function()
+            // {
+            //   $("#modal-16 h3").html("Отправьте заявку");
+            //   $("#modal-16 .wrap-form").slideDown(300);
+            // }, 2300);
+          }
+        });
+        return output;
+      };
+
+      function pdfer(formid)
+      {
+        var output = false;
+        var name, email, phone;
+        form = $(formid);
+        if (form.find('.email').val())
+        {
+          output = true;
+        }
+        else
+        {
+          notify("Пожалуйста, введите ваш email", "error");
+          $('#form2 .email').focus();
+        }
+        return output;
+      };
+      $("#form2 .submit").on('click', function()
+      {
+        return pdfer(form2);
+      });
+      $(".sec10 .guide").on('click', function()
+      {
+        $("#form2 button.submit").trigger('click');
+      });
+
+      //  function test(country,city)
+      // {
+      //   $.ajax(
+      //   {
+      //     type: "POST",
+      //     url: 'mailer/mailtest.php',
+      //     async: false,
+      //     data:
+      //     {
+      //       city: city,
+      //       country: country
+      //     },
+      //     success: function()
+      //     {
+      //       output = true;
+      //     }
+      //   });
+      //   return output;
+      // };
+      // $(window).load(function()
+      // {
+      //   jQuery("#user-city").text(ymaps.geolocation.city);
+      //   jQuery("#user-region").text(ymaps.geolocation.region);
+      //   jQuery("#user-country").text(ymaps.geolocation.country);
+      //   test(ymaps.geolocation.country,ymaps.geolocation.city);
+      // });
+
+    </script>
+    
+
+
+<!-- Код тега ремаркетинга Google -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 859482576;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/859482576/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+  </body>
+</html>
